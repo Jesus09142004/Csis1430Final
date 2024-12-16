@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/tictactoe.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#game-message {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#scoreboard {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: black; 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px black; 
+}
+
+#scoreboard p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#scoreboard span {
+    color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+#game-board div {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#game-board div:hover {
+    background-color: lightgray; 
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button:active {
+    background-color: forestgreen;
+}

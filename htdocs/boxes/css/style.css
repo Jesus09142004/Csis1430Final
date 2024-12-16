@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.sky{
+	background-color:skyblue;
+	height: 800px;
+	position: relative;
+}
+div.cloud{
+	 border-radius: 40px;
+  background-color: whitesmoke;
+  height: 100px;
+  width: 200px;
+  border-radius: 50%;
+}
+div.cloud2{
+	 border-radius: 40px;
+  background-color: whitesmoke;
+  height: 100px;
+  width: 200px;
+  border-radius: 50%;
+  float: inline-end;
+
+}
+div.grass{
+	height: 200px;
+	background-color: green;
+	position: absolute; 
+	bottom: 0;
+	width: 100%; 
+}
+div.stem{
+	width: 40px;
+	height: 100px;
+	background-color: brown;
+	position: absolute; 
+	bottom: 200px; 
+	left: 50%; 
+	transform: translateX(-50%); 
+}
+div.leaves {
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid darkgreen;
+	display: inline-block;
+	position: absolute; 
+	bottom: 250px; 
+	left: 50%; 
+	transform: translateX(-50%); 
+}
+div.stem2{
+	width: 40px;
+	height: 100px;
+	background-color: brown;
+	position: absolute;
+	left: 80px;
+	bottom: -150px;
+}
+div.leaves2{
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid darkgreen;
+	display: inline-block;
+	position: absolute; 
+	left: 50px;
+	bottom: -60px;
+}
+div.wall{
+	background-color: beige;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 160px;
+	bottom: -150px;
+}
+div.door{
+	width:50px;
+	height: 100px;
+	background-color: darkred;
+	position: absolute;
+	right: 235px;
+	top: 50px;
+}
+div.knob{
+	border-radius: 40px;
+  background-color: yellow;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  border-radius: 50%;
+  right: 240px;
+  top: 100px;
+}
+div.window{
+	border-radius: 40px;
+  background-color:skyblue;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  border-radius: 50%;
+  right: 300px;
+  top: 20px;
+  border: 5px solid brown;
+}
+div.window2{
+	border-radius: 40px;
+  background-color:skyblue;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  border-radius: 50%;
+  right: 165px;
+  top: 20px;
+  border: 5px solid brown;
+}
+div.roof{
+	height: 0;
+	border-left: 105px solid transparent;
+	border-right: 105px solid transparent;
+	border-bottom: 100px solid orangered;
+	display: inline-block;
+	position: absolute; 
+	bottom: 50px;
+	right:50px; 
+	transform: translateX(-50%);
+}
+div.stem3{
+	width: 40px;
+	height: 120px;
+	background-color: brown;
+	position: absolute;
+	left: 180px;
+	bottom: -150px;
+}
+div.leaves3{
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid darkgreen;
+	display: inline-block;
+	position: absolute; 
+	left: 150px;
+	bottom: -40px;
+
+}
+div.carbody{
+	background-color: darkblue;
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	top: 100px;
+
+}

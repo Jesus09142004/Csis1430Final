@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+
+ul li a.active {
+    background-color: #888;
+    color: #fff;
+}
+
+ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+p, form {
+    text-align: center;
+    margin: 20px;
+}
+
+form input, form select, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 40%;
+}

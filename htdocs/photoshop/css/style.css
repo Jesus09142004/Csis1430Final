@@ -1,0 +1,100 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+div.main 
+
+
+div.header 
+{ /* sets the parameters of the header */
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid #cbc7c7;
+    overflow: hidden;
+    text-align: center; 
+}
+
+div.header p 
+{ /* text for "wordle" in the header of the page */
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    font-family: Gill Sans, sans-serif;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.header img 
+{ /* ensures all images are on the top right corner with proper size */
+    float: right;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+/* GRID STYLING */
+div.gridWidth /* sets the total size of the grid */
+{
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); /* sets columns */
+    grid-template-rows: repeat(6, 1fr); /*sets rows */
+    gap: 10px;
+    width: 500px; 
+    margin: 50px auto; /* Centers grid on the page */
+   
+}
+
+div.gridWidth .cell 
+{
+    
+    width: 100%;
+    padding-top: 100%; /* square shape */
+    
+    border: 2px solid #d3d6da; 
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* KEYBOARD STUFF */
+
+div.keyboard
+{
+	display: flex; /*flexbox for the keyboard */
+	flex-direction: column; /* create columns for the keyboard */
+	align-items: center; /* align the keyboard into the center of the page */
+}
+
+div.row /*sets the row for each line of keys */
+{
+	display: flex;
+	justify-content: center;
+	margin: 5px 0; /*adds the space between rows */
+}
+div.key /* starts making the keys on screen */
+{
+	display: flex; /*allows us to use justify-content */
+	justify-content: center; /* centers the keys */
+	width: 60px; /* width and height makes the squares of each key */
+	height: 60px;
+	background-color: #d3d6da; /* sets the colors of the keys */
+	border: 1px solid #000000; /* border for keys */
+	cursor: pointer;
+}
+div.enterkey /* allows us to have a more proper size for the enter key */
+{
+	display: flex; /*allows us to use justify-content */
+	justify-content: center; /* centers the enter key */
+	width: 80px;
+	height: 60px;
+	background-color: #d3d6da;
+	border: 1px solid #000000;
+
+}
